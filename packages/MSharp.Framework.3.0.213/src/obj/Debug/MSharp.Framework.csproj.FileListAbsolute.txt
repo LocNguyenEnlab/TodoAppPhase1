@@ -1,0 +1,8 @@
+C:\Projects\MSharp.Framework\@Assemblies\MSharp.Framework.XML
+C:\Projects\MSharp.Framework\@Assemblies\MSharp.Framework.dll
+C:\Projects\MSharp.Framework\@Assemblies\MSharp.Framework.pdb
+C:\Projects\MSharp.Framework\MSharp.Framework\obj\Debug\MSharp.Framework.csproj.CoreCompileInputs.cache
+C:\Projects\MSharp.Framework\MSharp.Framework\obj\Debug\MSharp.Framework.dll
+C:\Projects\MSharp.Framework\MSharp.Framework\obj\Debug\MSharp.Framework.pdb
+C:\Projects\MSharp.Framework\MSharp.Framework\obj\Debug\MSharp.Framework.csproj.CopyComplete
+C:\Projects\MSharp.Framework\MSharp.Framework\obj\Debug\MSharp.Framework.csprojAssemblyReference.cache
