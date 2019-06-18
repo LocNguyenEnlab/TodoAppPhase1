@@ -1,6 +1,6 @@
 ﻿namespace ToDoAppPhase1
 {
-    partial class FormAddTask
+    partial class AddTaskForm
     {
         /// <summary>
         /// Required designer variable.

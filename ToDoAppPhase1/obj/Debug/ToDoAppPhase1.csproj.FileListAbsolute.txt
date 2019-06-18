@@ -1,0 +1,16 @@
+C:\Github\TodoAppPhase1\ToDoAppPhase1\bin\Debug\ToDoAppPhase1.exe.config
+C:\Github\TodoAppPhase1\ToDoAppPhase1\bin\Debug\ToDoAppPhase1.exe
+C:\Github\TodoAppPhase1\ToDoAppPhase1\bin\Debug\ToDoAppPhase1.pdb
+C:\Github\TodoAppPhase1\ToDoAppPhase1\bin\Debug\MSharp.Framework.dll
+C:\Github\TodoAppPhase1\ToDoAppPhase1\bin\Debug\Newtonsoft.Json.dll
+C:\Github\TodoAppPhase1\ToDoAppPhase1\bin\Debug\MSharp.Framework.pdb
+C:\Github\TodoAppPhase1\ToDoAppPhase1\bin\Debug\MSharp.Framework.xml
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.csprojAssemblyReference.cache
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.Form1.resources
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.Properties.Resources.resources
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.csproj.GenerateResource.cache
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.csproj.CoreCompileInputs.cache
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.csproj.CopyComplete
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.exe
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.pdb
+C:\Github\TodoAppPhase1\ToDoAppPhase1\obj\Debug\ToDoAppPhase1.AddTaskForm.resources

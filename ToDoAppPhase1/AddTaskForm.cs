@@ -1,38 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ToDoAppPhase1
 {
-    public partial class FormAddTask : Form
+    public partial class AddTaskForm : Form
     {
-        public FormAddTask()
+        private Task _taskEdit;
+        public delegate void PassData(Task t);
+        public delegate void ShowMainForm();
+        public PassData passData;
+        public ShowMainForm showMainForm;
+
+        public AddTaskForm()
         {
             InitializeComponent();
             btnUpdate.Visible = false;
         }
-        public FormAddTask(Task t)
+
+        public AddTaskForm(Task t)
         {
             InitializeComponent();
             tbTitle.Text = t.Title;
             tbDescription.Text = t.Description;
             btnOk.Visible = false;
-            taskEdit = t;
-        }
-
-        private Task taskEdit = new Task();
-
-        public delegate void PassData(Task t);
-        public delegate void ShowForm1();
-
-        public PassData pd;
-        public ShowForm1 show;
+            _taskEdit = t;
+        }        
 
         private void BtnOk_Click(object sender, EventArgs e)
         {
@@ -45,7 +37,7 @@ namespace ToDoAppPhase1
             };
             if(!task.IsEmpty())
             {
-                pd(task);
+                passData(task);
                 this.Dispose();
             }
             else
@@ -56,16 +48,16 @@ namespace ToDoAppPhase1
 
         private void FormAddTask_FormClosing(object sender, FormClosingEventArgs e)
         {
-            show();
+            showMainForm();
         }
 
         private void BtnUpdate_Click(object sender, EventArgs e)
         {
-            taskEdit.Title = tbTitle.Text;
-            taskEdit.Description = tbDescription.Text;
-            if (!taskEdit.IsEmpty())
+            _taskEdit.Title = tbTitle.Text;
+            _taskEdit.Description = tbDescription.Text;
+            if (!_taskEdit.IsEmpty())
             {
-                pd(taskEdit);
+                passData(_taskEdit);
                 this.Dispose();
             }
             else
